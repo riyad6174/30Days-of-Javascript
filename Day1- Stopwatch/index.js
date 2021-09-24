@@ -12,6 +12,7 @@ var tenth = document.querySelector(".tens");
 var minute = document.querySelector(".min");
 var second = document.querySelector(".sec");
 //add event listener
+//new line added
 start.addEventListener("click",()=>{
     clearInterval(time);
     time=setInterval(watchCounter,10);
